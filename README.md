@@ -121,10 +121,12 @@ source /opt/ros/foxy/setup.bash
 
 ### Deep Q-Network (DQN)
 DQN is a model-free, off-policy RL algorithm that approximates the Q-value function using a deep neural network. The Q-network receives the current state as input and outputs Q-values for all possible actions. The action with the highest Q-value is selected using an ϵ-greedy policy.
+
 ![DQN](dqn.jpeg)
 
 ### Twin Delayed Deep Deterministic Policy Gradient (TD3)
 TD3 is an actor-critic algorithm designed for continuous action spaces. It extends the Deep Deterministic Policy Gradient (DDPG) by addressing overestimation bias and improving learning stability. TD3 uses twin Q-networks to reduce overestimation and delayed policy updates to stabilize training.
+
 ![TD3](td3.jpeg)
 
 ## Enhancements and Hyperparameter Tuning
