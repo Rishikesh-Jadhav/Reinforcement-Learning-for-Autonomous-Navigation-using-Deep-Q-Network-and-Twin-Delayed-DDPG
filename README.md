@@ -115,6 +115,8 @@ source /opt/ros/foxy/setup.bash
    ```bash
    python3 evaluate.py
 
+![Alt Text](https://github.com/Rishikesh-Jadhav/Reinforcement-Learning-for-Autonomous-Navigation-using-Deep-Q-Network-and-Twin-Delayed-DDPG/blob/main/media/visual.gif)
+
 ## Algorithms
 
 ### Deep Q-Network (DQN)
