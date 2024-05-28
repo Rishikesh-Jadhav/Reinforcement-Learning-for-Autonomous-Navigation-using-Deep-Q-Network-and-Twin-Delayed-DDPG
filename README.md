@@ -27,12 +27,55 @@ Autonomous vehicle navigation has become a pivotal area of research in the field
 - Comparative analysis of DQN and TD3 performance
 
 ## Installation
+
+### **Docker Installation (Recommended)**
+
+In order to greatly simplify the installation process and get up and running quickly it is recommended to use Docker. Docker can be seen as a lightweight VM that allows you to run applications within an isolated container making it easy to install all of the dependencies.
+
+First, [install docker](https://docs.docker.com/engine/install/ubuntu/)
+
+Now, in order to use your GPU within the docker container to run the machine learning models, we need to complete a few extra simple steps.
+You should already have the nvidia driver installed on your system.
+
+### **Manual Installation**
+
+If you don't want to use docker you can install all dependencies manually.
+
 ### Prerequisites
 - Ubuntu 20.04 LTS
 - ROS2 Foxy Fitzroy
 - Gazebo 11.0
 - Python 3.8+
 - PyTorch 1.10.0
+
+#### **Installing ROS2**
+Install ROS2 foxy according to the following guide: [link](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html). You can choose either the Desktop or Bare Bones ROS installation, both work. <br>
+To prevent having to manually source the setup script every time, add the following line at the end of your `~/.bashrc` file:
+
+```
+source /opt/ros/foxy/setup.bash
+```
+
+More detailed installation instructions can be found [here](https://automaticaddison.com/how-to-install-ros-2-foxy-fitzroy-on-ubuntu-linux/).
+
+
+#### **Installing Gazebo**
+
+For this project we will be using Gazebo **11.0.** To install Gazebo 11.0, navigate to the following [page](http://gazebosim.org/tutorials?tut=install_ubuntu), select Version 11.0 in the top-right corner and follow the default installation instructions.
+
+Next, we need to install a package that allows ROS2 to interface with Gazebo.
+To install this package we simply execute the following command in a terminal:
+```
+sudo apt install ros-foxy-gazebo-ros-pkgs
+```
+After successful installation we are now going to test our ROS2 + Gazebo setup by making a demo model move in the simulator. First, install two additional packages for demo purposes (they might already be installed):
+```
+sudo apt install ros-foxy-ros-core ros-foxy-geometry2
+```
+Source ROS2 before we launch the demo:
+```
+source /opt/ros/foxy/setup.bash
+```
 
 ### Setup
 1. Clone the repository:
