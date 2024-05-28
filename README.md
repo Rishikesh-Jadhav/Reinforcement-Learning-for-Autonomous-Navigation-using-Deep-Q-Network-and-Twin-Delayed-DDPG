@@ -149,9 +149,9 @@ The results of the training processes for both DQN and TD3 algorithms are analyz
 
 ### TD3 Algorithm Performance
 - **Without Hyperparameter Tuning**: High number of collisions, low navigation success, high initial average critic loss with significant variance, unstable average rewards.
-  ![TD3W](td3with.jpeg)
+  ![TD3W](td3without.jpeg)
 - **With Hyperparameter Tuning**: Significant reduction in collisions, higher navigation success, stabilized and lower average critic loss, consistent upward trend in average rewards.
-  ![TD3With](td3without.jpeg)
+  ![TD3With](td3with.jpeg)
 
 ## Contribution
 Key contributions made to the project include:
