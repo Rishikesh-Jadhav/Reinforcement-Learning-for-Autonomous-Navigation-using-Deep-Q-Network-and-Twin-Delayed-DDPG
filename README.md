@@ -15,6 +15,8 @@ This repository contains the implementation of autonomous vehicle navigation usi
 - [Contribution](#contribution)
 - [Future Work](#future-work)
 
+**NOTE:** To access the Final package, [click here](https://drive.google.com/drive/folders/1bEdnjlsKMCL4WyAYNA3v8UGTf5t-eK3h) as the package is too big to keep on a GitHub repo.
+
 ## Introduction
 Autonomous vehicle navigation has become a pivotal area of research in the field of robotics, driven by the potential to enhance safety, efficiency, and accessibility in various domains including transportation, logistics, and personal robotics. This project explores the application of two prominent RL algorithms, Deep Q-Networks (DQN) and Twin Delayed Deep Deterministic Policy Gradient (TD3), for the navigation of a TurtleBot3 robot in a simulated ROS Gazebo environment.
 
