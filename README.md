@@ -2,6 +2,8 @@
 
 This repository contains the implementation of autonomous vehicle navigation using reinforcement learning (RL) techniques, specifically focusing on Deep Q-Networks (DQN) and Twin Delayed Deep Deterministic Policy Gradient (TD3) algorithms. The project was conducted using the TurtleBot3 robot in a simulated ROS2 Foxy and Gazebo 11 environment. The primary objective was to train the TurtleBot3 to navigate autonomously through an environment while avoiding moving obstacles.
 
+![Alt Text](https://github.com/Rishikesh-Jadhav/Reinforcement-Learning-for-Autonomous-Navigation-using-Deep-Q-Network-and-Twin-Delayed-DDPG/blob/main/media/simulation.gif)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
